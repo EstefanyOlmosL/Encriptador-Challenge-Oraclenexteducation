@@ -1,0 +1,107 @@
+main
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    font-weight:400;
+    font-size:32px;
+    line-height:150%;
+}
+
+
+body {
+    background-color: rgb(18, 5, 43);
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+} 
+.titulo {
+    text-align: center;
+    font-size:25px;
+    color:white;
+    font-style: oblique;
+    margin-top:-55px;
+    
+}
+  
+  
+.input-texto {
+    margin-top: -50px;
+    margin-left: 200px;
+    background-color: rgb(17, 1, 46);
+    border-color: rgb(146, 103, 224);
+
+    /*estilo de letra*/
+    font-style: inherit;
+    color:white;
+    font-size: 32px;
+    
+}
+
+.mensaje {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 85px;
+    background-image: url("muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    background-color: rgb(17, 1, 46);
+    border-color: rgb(146, 103, 224);
+
+    /*estilo de letra*/
+    font-style: inherit;
+    color:white;
+    font-size: 32px;
+
+
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 350px;
+    margin-left: -381px;
+    background-color: rgb(5, 0, 14);
+    color:white;
+    font-style: initial;
+    font-size: 20px;
+    border-color: rgb(150, 135, 177);
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(5, 0, 14);
+    color:white;
+    font-style: initial;
+    font-size: 20px;
+    border-color:rgb(150, 135, 177);
+
+    margin-left: 200px;
+    margin-top:-25px;
+}
+
+.descencriptar {
+    margin-left: -285px;
+    margin-top:-25px;
+    background-color: rgb(5, 0, 14);
+    color:white;
+    font-style: initial;
+    font-size: 20px;
+    border-color: rgb(150, 135, 177)
+}
+
+
+ 
+ 
+ 
+ 
