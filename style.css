@@ -1,7 +1,7 @@
 main
 
 * {
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight:400;
     font-size:32px;
     line-height:150%;
@@ -10,6 +10,9 @@ main
 
 body {
     background-color: rgb(18, 5, 43);
+    background-image:url();
+    margin:auto;
+    
 }
 
 
@@ -27,13 +30,18 @@ main {
     margin-top:-55px;
     
 }
-  
+  header h1 :active{
+    color: brown;
+
+}
   
 .input-texto {
     margin-top: -50px;
     margin-left: 200px;
     background-color: rgb(17, 1, 46);
     border-color: rgb(146, 103, 224);
+    background-repeat: no-repeat;
+    
 
     /*estilo de letra*/
     font-style: inherit;
@@ -65,7 +73,7 @@ main {
 .copiar {
     position: relative;
     margin-top: 350px;
-    margin-left: -381px;
+    margin-left: -335px;
     background-color: rgb(5, 0, 14);
     color:white;
     font-style: initial;
@@ -89,9 +97,12 @@ main {
     margin-left: 200px;
     margin-top:-25px;
 }
+.botones .encriptar :hover{
+    background-color:rgb(252, 32, 32);
+}
 
 .descencriptar {
-    margin-left: -285px;
+    margin-left: -235px;
     margin-top:-25px;
     background-color: rgb(5, 0, 14);
     color:white;
@@ -99,6 +110,12 @@ main {
     font-size: 20px;
     border-color: rgb(150, 135, 177)
 }
+
+
+ 
+ 
+ 
+ 
 
 
  
